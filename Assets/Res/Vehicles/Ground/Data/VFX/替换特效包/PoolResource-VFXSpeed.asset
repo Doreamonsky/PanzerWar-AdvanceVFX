@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1152498088, guid: 0512a3c011ce1c84db3d9ccc1f4d6d2e, type: 3}
+  m_Name: PoolResource-VFXSpeed
+  m_EditorClassIdentifier: 
+  identifier: {fileID: 11400000, guid: a040449af6771cb4bafae066fb76d4d0, type: 2}
+  spawnReses:
+  - spawnName: ATGM-HitOnGround-M-Speed
+    spawnObject: {fileID: 100006, guid: 9c7f15c8eebfc624f968060dcc36537c, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnArmor-M-Speed
+    spawnObject: {fileID: 100004, guid: e94ec27dadb888c43b014d49475069b0, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnGround-S-Speed
+    spawnObject: {fileID: 100006, guid: afbcdb9d79a59fe4f87aefa17775a04b, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnArmor-S-Speed
+    spawnObject: {fileID: 100004, guid: 4a686e8d486c78642b72a56d411eeb3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15

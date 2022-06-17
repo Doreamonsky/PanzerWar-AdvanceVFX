@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1152498088, guid: 0512a3c011ce1c84db3d9ccc1f4d6d2e, type: 3}
+  m_Name: PoolResource
+  m_EditorClassIdentifier: 
+  identifier: {fileID: 11400000, guid: a040449af6771cb4bafae066fb76d4d0, type: 2}
+  spawnReses:
+  - spawnName: KillAchievementSound
+    spawnObject: {fileID: 1292169219813342710, guid: 7b139f1f2a5c6b2418c1a4018d6dd72b,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 5
+  - spawnName: XXXXXXShellReload
+    spawnObject: {fileID: 1292169219813342710, guid: 1a8ccbf6dbf728642a653f286a27ddac,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 3
+  - spawnName: MuzzleFire_Small
+    spawnObject: {fileID: 100006, guid: f6e623422510ea14fbb3ad0df9d566b5, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: MuzzleFire_Middle
+    spawnObject: {fileID: 100006, guid: 8e08c9ddb04b28b4ba74313dcdc30470, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: MuzzleFire_Large
+    spawnObject: {fileID: 100006, guid: fb51fa68df571a343909a8c49da9e49c, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: Muzzle_Smoke
+    spawnObject: {fileID: 100002, guid: 4ee247877bf131c48bd9fd742f24a798, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: "Missile-BlackSmoke-B-ra\u7279\u6548"
+    spawnObject: {fileID: 4193805038770674718, guid: bfda6567d159cfd419b1e05070efcaeb,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: "Missile-BlackSmoke-M-ra\u7279\u6548"
+    spawnObject: {fileID: 4193805038770674718, guid: 2b7ce55efc549ae40976307daba3df87,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: "Missile-BlackSmoke-S-ra\u7279\u6548"
+    spawnObject: {fileID: 4193805038770674718, guid: a0d6d007a012d7b4dbffae6ecdde2d90,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: MGHitOnArmor
+    spawnObject: {fileID: 100004, guid: b3d364be52c0b4e47bd5dc8ac5a2c0dd, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: FireExplosionHitOnArmor
+    spawnObject: {fileID: 100004, guid: 7ca200746cf8c0a4b8e215df10dceae2, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: FirePenetrateHitOnArmor
+    spawnObject: {fileID: 100004, guid: bdbdc044df84f12408de147a4a788df3, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: FireExplosionHitOnGround
+    spawnObject: {fileID: 1999623026787918277, guid: c812cbe103149934183ce575408d1eec,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 10
+  - spawnName: DestroyEffect
+    spawnObject: {fileID: 1149598905674500, guid: b53d22608e5738545a1dd80373299e6e,
+      type: 3}
+    isBuff: 0
+    instanceCount: 20
+    lifeTime: 10
+  - spawnName: WeaponProjectile
+    spawnObject: {fileID: 611590392870655257, guid: 679ab4c979bbc784aa69ded0b49d265d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: CannoWeaponProjectile
+    spawnObject: {fileID: 611590392870655257, guid: b7cef770bab12af4ea27ccdcdebd0dfa,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MissileWeaponProjectile
+    spawnObject: {fileID: 3793216760692596300, guid: 369d2fc7169cbcd43a3360ebbf90076e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: Sparks
+    spawnObject: {fileID: 7019681089018150860, guid: ebe1023ded59f9b4086fd6538bc9519b,
+      type: 3}
+    isBuff: 1
+    instanceCount: 20
+    lifeTime: 5
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u79D1\u5E7B\u7206\u70B8\u5C0F\u5C0F\u5C0F-ra\u7279\u6548"
+    spawnObject: {fileID: 1879272669879180, guid: 9c6dc941e0e64ea4281ebcf7508014fe,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u79D1\u5E7B\u7206\u70B8\u4E2D\u4E2D\u4E2D-ra\u7279\u6548"
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u79D1\u5E7B\u7206\u70B8\u5927\u5927\u5927-ra\u7279\u6548"
+    spawnObject: {fileID: 1329845292236604, guid: 299166ecd764f2e40a54194217e5ffae,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u84DD\u8272\u70AE\u5F39\u5C0F"
+    spawnObject: {fileID: 331614962127125950, guid: 2dab18ce4c1dcea41a69a4af43c46834,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u84DD\u8272\u70AE\u5F39\u4E2D"
+    spawnObject: {fileID: 331614962127125950, guid: b5cfc1678d5676342b34300b6edeb155,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u84DD\u8272\u70AE\u5F39\u5927"
+    spawnObject: {fileID: 331614962127125950, guid: 40ef5a1a26cf4574c9d4457945ffd65d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: NO-VFX
+    spawnObject: {fileID: 876274221056044776, guid: e7f013d805531fa4a9aa80960116bc2d,
+      type: 3}
+    isBuff: 1
+    instanceCount: 1
+    lifeTime: 1
+  - spawnName: "SOV-MRLS-A10C\u5927\u5BFC\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 4514022064722706499, guid: bff0858cae0df2f449751393ee143e00,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "SOV-MRLS-A10C\u5C0F\u5BFC\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 8502253988560079357, guid: 4fa8aead63393a34c99f784640f5f48d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "XXXXX-----SOV-MRLS-A10C\u70B8\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 364014778192694114, guid: de1aac3f88cc914438ef8035a9e647a1,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "SOV-MRLS-\u963F\u5E15\u5947\u5BFC\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 6617714760579723294, guid: d42979530d1075b448803d6299839872,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "\u8FD1\u9632\u70AE\u70AE\u5F39"
+    spawnObject: {fileID: 331614962127125950, guid: cbf6da61ef235554095444012b97997c,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 3
+  - spawnName: FlightWeaponProjectile
+    spawnObject: {fileID: 611590392870655257, guid: c1851822afbf129419e8e9f746c22099,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "SOV-MRLS-\u98D3\u98CE\u5BFC\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 1582979920982720481, guid: 5f98f03732e37754f8cf974576b7fe7e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "SA-6\u5BFC\u5F39\u7279\u6548"
+    spawnObject: {fileID: 1873679134894812018, guid: 0730a33dbca8b594cb3fa32890f4a81b,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: ShellExplodeDestroyEffect
+    spawnObject: {fileID: 1149598905674500, guid: 76c98b943133f2f418d43620b47edf7d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u78C1\u66B4Electricity"
+    spawnObject: {fileID: 7520097234194302244, guid: 75f939074ea937146bf2063d9eb829df,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u84DD\u8272\u70AE\u5F39"
+    spawnObject: {fileID: 331614962127125950, guid: 1ad4fe907ffc9b348a2af263dc3d508e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u6FC0\u5149\u84DD\u8272\u7206\u70B8Laser_Blue_Small_Impact-ra\u7279\u6548"
+    spawnObject: {fileID: 1879272669879180, guid: 88742cd24ce37804eb55c785fade6512,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u6FC0\u5149\u70AE\u53E3\u84DD\u8272\u706B\u7130\u5C0FLaser_Blue_Medium_MuzzleFlare-ra\u7279\u6548"
+    spawnObject: {fileID: 1000012903210382, guid: 80a26d9b3cd0d4a4a9276800d8cd9f03,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "DestroyEffect-B-ra\u7279\u6548"
+    spawnObject: {fileID: 1149598905674500, guid: f009f58951c8649479f26e8f6502e204,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "DestroyEffect-S-ra\u7279\u6548"
+    spawnObject: {fileID: 1149598905674500, guid: e6ab1d866b5299a47a624a6e6c08e894,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u53E3\u84DD\u8272\u706B\u7130\u5927-ra\u7279\u6548"
+    spawnObject: {fileID: 1000012903210382, guid: 09e57cad92d22744e847bb67f269db95,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u53E3\u84DD\u8272\u706B\u7130\u4E2D-ra\u7279\u6548"
+    spawnObject: {fileID: 1000012903210382, guid: a7a502e0f9174b742bb1b35309ab33c8,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "\u5317\u6781\u661F-\u6FC0\u5149\u70AE\u53E3\u84DD\u8272\u706B\u7130\u5C0F-ra\u7279\u6548"
+    spawnObject: {fileID: 1000012903210382, guid: 8f135a7cd13013c4d866ff786b6ef945,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: "J-15\u5BFC\u5F39\u6A21\u578B"
+    spawnObject: {fileID: 8502253988560079357, guid: 16b0f735b826c27498d794338a7e182f,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "MGI-\u53CC\u53C9\u5BFC\u5F39"
+    spawnObject: {fileID: 3793216760692596300, guid: 943396dbfb2b0e1409713d6711744144,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "MGI-\u5927\u89C4\u6A21\u53D8\u8272\u70AE\u5F39"
+    spawnObject: {fileID: 331614962127125950, guid: 2dd6940d4276b624a8f4746cb9188fc3,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "sov\u70AE\u53E3\u70DF\u96FEFTEM_ExplosionSmoke_Side-ra\u7279\u6548L-Both"
+    spawnObject: {fileID: 100006, guid: ebff287fd115afc4c8a19df867cd2384, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "sov\u70AE\u53E3\u70DF\u96FEFTEM_ExplosionSmoke_Side-ra\u7279\u6548M-Both"
+    spawnObject: {fileID: 100006, guid: 24d56f088eed7a24289f28949bde2cc6, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "ATGM-Gun-WeaponProjectile-M-ra\u7279\u6548"
+    spawnObject: {fileID: 3793216760692596300, guid: 49d9ce55c1c814a4f82af13fa9213fd4,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "ATGMWeaponProjectile-M-Double-ra\u7279\u6548"
+    spawnObject: {fileID: 3793216760692596300, guid: 33e2af770a970b04aa2d031d0b44577d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "SOV-MRLS-M142-HIMARS\u5BFC\u5F39-ra\u7279\u6548"
+    spawnObject: {fileID: 3793216760692596300, guid: 0725298fbca23e7468b2daf8236157a9,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "sovC4\u6838\u7206\u7206\u70B8FTEM_Explosion08-ra\u7279\u6548"
+    spawnObject: {fileID: 100006, guid: f4f2be82eb870d544af4b57ec96462fe, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: "\u7A81\u51FB\u864E-RTS-03\u70AE\u5F39\u7206\u70B8FTEM_AirExplosion-ra\u7279\u6548"
+    spawnObject: {fileID: 100004, guid: a11a1f5ebf05d0f40a921ed1781cc711, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: KKarlBullt
+    spawnObject: {fileID: 8044617544105832762, guid: f71292e3a5fb3e04eae748d6abd67a63,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MechWalkSmoke-M
+    spawnObject: {fileID: 3324807463006440169, guid: 51a3f7469cb5e4c4d936b6cd45050fd1,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MechWalkSmoke-B
+    spawnObject: {fileID: 3324807463006440169, guid: 235457e88b027e947b63bee9d225edaf,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15

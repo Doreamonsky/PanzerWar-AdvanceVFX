@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 935110173, guid: 0512a3c011ce1c84db3d9ccc1f4d6d2e, type: 3}
+  m_Name: VFX-AdvancedEdition
+  m_EditorClassIdentifier: 
+  modName: VFX-AdvancedEdition
+  description: "\u76D7\u5356\u5FC5\u7A76"
+  author: "\u5B9D\u9A6C\u9E3D"
+  supportURL: https://yourWebSite.com
+  modVersion: 1
+  testedGameVersion: 2021r3f2
+  buildTarget: StandaloneWindows64
+  isAuthorizeOwnerShip: 0
+  packUuid: 
+  buildCaches:
+  - targetPlatform: Android
+    relatedAssets:
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-fwq.pooldata
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-fwq.pooldata.manifest
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfx.pooldata
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfx.pooldata.manifest
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfxspeed.pooldata
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfxspeed.pooldata.manifest
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource.pooldata
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource.pooldata.manifest
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/packages
+    - Build/Mod-BuildPipline/Android/BuildPipline-VFX-AdvancedEdition/packages/packages.manifest
+  - targetPlatform: StandaloneWindows64
+    relatedAssets:
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-fwq.pooldata
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-fwq.pooldata.manifest
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfx.pooldata
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfx.pooldata.manifest
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfxspeed.pooldata
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource-vfxspeed.pooldata.manifest
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource.pooldata
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/8dc608d0-3840-4c7b-ae56-64a7dfc750fd-poolresource.pooldata.manifest
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/packages
+    - Build/Mod-BuildPipline/StandaloneWindows64/BuildPipline-VFX-AdvancedEdition/packages/packages.manifest
+  - targetPlatform: StandaloneLinux64
+    relatedAssets:
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/packages"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/packages.manifest"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-fwq.pooldata"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-fwq.pooldata.manifest"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-vfx.pooldata"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-vfx.pooldata.manifest"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-vfxspeed.pooldata"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource-vfxspeed.pooldata.manifest"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource.pooldata"
+    - "Build/Mod-BuildPipline/StandaloneLinux64/BuildPipline-\u5B9D\u9A6C\u54E5\u7684\u9AD8\u7EA7\u7279\u6548MOD/packages/Encryption/poolresource.pooldata.manifest"
+  isLoadManifest: 0
+  luaScripts: []
+  installedDirectory: Assigned-Runtime

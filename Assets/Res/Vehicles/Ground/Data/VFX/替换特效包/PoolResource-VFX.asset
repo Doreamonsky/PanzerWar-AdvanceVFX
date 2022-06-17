@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1152498088, guid: 0512a3c011ce1c84db3d9ccc1f4d6d2e, type: 3}
+  m_Name: PoolResource-VFX
+  m_EditorClassIdentifier: 
+  identifier: {fileID: 11400000, guid: a040449af6771cb4bafae066fb76d4d0, type: 2}
+  spawnReses:
+  - spawnName: AP-HitOnGround-B
+    spawnObject: {fileID: 100006, guid: 7456320f88e24d34281791bdc5f72b3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-B
+    spawnObject: {fileID: 100004, guid: 36c6da5cb0c10da488dad69d8603af1e, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnGround-M
+    spawnObject: {fileID: 1999623026787918277, guid: c812cbe103149934183ce575408d1eec,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-M
+    spawnObject: {fileID: 100004, guid: bdbdc044df84f12408de147a4a788df3, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnGround-S
+    spawnObject: {fileID: 1999623026787918277, guid: c812cbe103149934183ce575408d1eec,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-S
+    spawnObject: {fileID: 100004, guid: bdbdc044df84f12408de147a4a788df3, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnGround-B
+    spawnObject: {fileID: 100006, guid: 7456320f88e24d34281791bdc5f72b3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnArmor-B
+    spawnObject: {fileID: 100004, guid: 36c6da5cb0c10da488dad69d8603af1e, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnGround-M
+    spawnObject: {fileID: 100006, guid: 722148a435a3abf4f97065eef6ebf898, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnArmor-M
+    spawnObject: {fileID: 100004, guid: 7ca200746cf8c0a4b8e215df10dceae2, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnGround-S
+    spawnObject: {fileID: 100006, guid: 722148a435a3abf4f97065eef6ebf898, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HE-HitOnArmor-S
+    spawnObject: {fileID: 100004, guid: 7ca200746cf8c0a4b8e215df10dceae2, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnGround-B
+    spawnObject: {fileID: 100006, guid: 7456320f88e24d34281791bdc5f72b3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnArmor-B
+    spawnObject: {fileID: 100004, guid: 36c6da5cb0c10da488dad69d8603af1e, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnGround-M
+    spawnObject: {fileID: 100006, guid: 9944e8d011d948e4ca60bab3fcd5f2b2, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnArmor-M
+    spawnObject: {fileID: 100004, guid: a6b5ac7c6e8ffaf4baca0577a7d988d5, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnGround-S
+    spawnObject: {fileID: 100006, guid: 9944e8d011d948e4ca60bab3fcd5f2b2, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: HEAT-HitOnArmor-S
+    spawnObject: {fileID: 100004, guid: a6b5ac7c6e8ffaf4baca0577a7d988d5, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: WeaponProjectile-B
+    spawnObject: {fileID: 611590392870655257, guid: 3eb273ea561d8384db84e940645b999c,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: GameObject1
+    spawnObject: {fileID: 876274221056044776, guid: e7f013d805531fa4a9aa80960116bc2d,
+      type: 3}
+    isBuff: 0
+    instanceCount: 1
+    lifeTime: 1
+  - spawnName: WeaponProjectile-S
+    spawnObject: {fileID: 611590392870655257, guid: 43f97ffe9e2abc549a74138e76187b77,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnGround-B
+    spawnObject: {fileID: 100006, guid: 7942014d6498ef24c93ba20a94a398b9, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnArmor-B
+    spawnObject: {fileID: 100004, guid: 7a87c6f3e2ccfa84ea4103149599592d, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGMWeaponProjectile-B
+    spawnObject: {fileID: 3793216760692596300, guid: 155bbfd7ffddebe4aa844a28ccbbd8aa,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnGround-M
+    spawnObject: {fileID: 100006, guid: 0f748ca442eb50742b130ed3767c9d72, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnArmor-M
+    spawnObject: {fileID: 100004, guid: b02f0679b6504f048b744939b634b4f3, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGMWeaponProjectile-M
+    spawnObject: {fileID: 3793216760692596300, guid: 369d2fc7169cbcd43a3360ebbf90076e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnGround-S
+    spawnObject: {fileID: 100006, guid: 9c8278a4ccc5b544caf3778a7c34c5d1, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGM-HitOnArmor-S
+    spawnObject: {fileID: 100004, guid: 7a3f014e17f661043b5331e38599f326, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: ATGMWeaponProjectile-S
+    spawnObject: {fileID: 3793216760692596300, guid: ccb4ad100d166ff47aefc763890b9872,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: MGHitOnGround-B
+    spawnObject: {fileID: 100004, guid: 6d0ac855d435f7f4bb9ab7ee3e334bd7, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MGHitOnArmor-B
+    spawnObject: {fileID: 100004, guid: e571255b4defc2b4aa83da0d238e1ca0, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MGHitOnGround-M
+    spawnObject: {fileID: 100004, guid: b3d364be52c0b4e47bd5dc8ac5a2c0dd, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MGHitOnArmor-M
+    spawnObject: {fileID: 100004, guid: 6d8fa9df0cc81084ea1c77dbc6595b86, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MGHitOnGround-S
+    spawnObject: {fileID: 100004, guid: b3d364be52c0b4e47bd5dc8ac5a2c0dd, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: MGHitOnArmor-S
+    spawnObject: {fileID: 100004, guid: 6d8fa9df0cc81084ea1c77dbc6595b86, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: CannoWeaponProjectile-B
+    spawnObject: {fileID: 611590392870655257, guid: c94e1d0595a6d0a4597ace693abec45c,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: CannoWeaponProjectile-S
+    spawnObject: {fileID: 611590392870655257, guid: 272998fa8d168114c8b9f0572da0771b,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnGround-B
+    spawnObject: {fileID: 100004, guid: 6d0ac855d435f7f4bb9ab7ee3e334bd7, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnArmors-B
+    spawnObject: {fileID: 100004, guid: e571255b4defc2b4aa83da0d238e1ca0, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnGround-M
+    spawnObject: {fileID: 100004, guid: 6d0ac855d435f7f4bb9ab7ee3e334bd7, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnArmors-M
+    spawnObject: {fileID: 100004, guid: e571255b4defc2b4aa83da0d238e1ca0, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnGround-S
+    spawnObject: {fileID: 100004, guid: 39b61f4973f20b04886d5e957a87cd12, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AIR-HitOnArmors-S
+    spawnObject: {fileID: 100004, guid: 4cf3880dfcb0774468e7d85c7e8dd7e0, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: FlightWeaponProjectile-B
+    spawnObject: {fileID: 611590392870655257, guid: a22843cf193fee1408c72cb5e0ea3153,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: FlightWeaponProjectile-S
+    spawnObject: {fileID: 611590392870655257, guid: bc9f802a97709c44f84631de06601871,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: AP-HitOnGround-SciFi-B
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-SciFi-B
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: WeaponProjectile-SciFi-B
+    spawnObject: {fileID: 331614962127125950, guid: b5cfc1678d5676342b34300b6edeb155,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnGround-SciFi-M
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-SciFi-M
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: WeaponProjectile-SciFi-M
+    spawnObject: {fileID: 331614962127125950, guid: b5cfc1678d5676342b34300b6edeb155,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnGround-SciFi-S
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: AP-HitOnArmor-SciFi-S
+    spawnObject: {fileID: 1879272669879180, guid: 656fd7bbd20122748841bbff684d3a62,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: WeaponProjectile-SciFi-S
+    spawnObject: {fileID: 331614962127125950, guid: b5cfc1678d5676342b34300b6edeb155,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: railgun
+    spawnObject: {fileID: 3056050699392148807, guid: 17e12f96b0a435948af618cf45d14bef,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 8
+  - spawnName: Bomb-HitOnArmor-B
+    spawnObject: {fileID: 100004, guid: 7a87c6f3e2ccfa84ea4103149599592d, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Bomb-HitOnGround-B
+    spawnObject: {fileID: 100006, guid: 7942014d6498ef24c93ba20a94a398b9, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: XXXXX-----BombWeaponProjectile-B
+    spawnObject: {fileID: 364014778192694114, guid: de1aac3f88cc914438ef8035a9e647a1,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: XXXXX-----BombWeaponProjectile-M
+    spawnObject: {fileID: 364014778192694114, guid: de1aac3f88cc914438ef8035a9e647a1,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Bomb-HitOnGround-M
+    spawnObject: {fileID: 100006, guid: 7456320f88e24d34281791bdc5f72b3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Bomb-HitOnArmor-M
+    spawnObject: {fileID: 100004, guid: 36c6da5cb0c10da488dad69d8603af1e, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Bomb-HitOnGround-S
+    spawnObject: {fileID: 100006, guid: 7456320f88e24d34281791bdc5f72b3f, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Bomb-HitOnArmor-S
+    spawnObject: {fileID: 100004, guid: 36c6da5cb0c10da488dad69d8603af1e, type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: XXXXX-----BombWeaponProjectile-S
+    spawnObject: {fileID: 364014778192694114, guid: de1aac3f88cc914438ef8035a9e647a1,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnGround-B
+    spawnObject: {fileID: 1759264295834012, guid: 19a353dc91ae7b444b3a9a7ddfd90b8e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnArmor-B
+    spawnObject: {fileID: 1759264295834012, guid: 1b2a4a71d46c25a40a0e96654bac4c4d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnGround-M
+    spawnObject: {fileID: 1759264295834012, guid: 19a353dc91ae7b444b3a9a7ddfd90b8e,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnArmor-M
+    spawnObject: {fileID: 1759264295834012, guid: 1b2a4a71d46c25a40a0e96654bac4c4d,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnGround-S
+    spawnObject: {fileID: 1759264295834012, guid: 9307b0f1802036f4f9c14366cb97ddb0,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15
+  - spawnName: Nuclear-HitOnArmor-S
+    spawnObject: {fileID: 1759264295834012, guid: 9e102831295c9094f8e3ee703856cd21,
+      type: 3}
+    isBuff: 1
+    instanceCount: -1
+    lifeTime: 15

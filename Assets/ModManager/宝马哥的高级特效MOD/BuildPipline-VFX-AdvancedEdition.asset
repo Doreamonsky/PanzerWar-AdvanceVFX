@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1042130866, guid: 0512a3c011ce1c84db3d9ccc1f4d6d2e, type: 3}
+  m_Name: BuildPipline-VFX-AdvancedEdition
+  m_EditorClassIdentifier: 
+  linkedObjects:
+  - {fileID: 11400000, guid: 9a05d5376a559c048afa275728892b52, type: 2}
+  - {fileID: 11400000, guid: fa497aa352639ad48a867a3e2bb8e8aa, type: 2}
+  - {fileID: 11400000, guid: f21252a548b2543468aefe20b32f96ba, type: 2}
+  - {fileID: 11400000, guid: 434c309631e2fa344839c6b42c7bc0ae, type: 2}
+  isLoadManifest: 0
+  shareDependenceMaterials: 0
+  shareDependenceModels: 0
+  appenModPackHashToDependence: 0
+  linkedModPackage: {fileID: 11400000, guid: e7aa94ecda37b6d4cbf2000bd21b7e2c, type: 2}
+  isEncryption: 0
+  encryptionKey: 
+  encryptionIV: 
